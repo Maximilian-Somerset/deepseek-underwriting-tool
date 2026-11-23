@@ -1,0 +1,48 @@
+# 密钥文件
+*.dpapi
+
+# 真实数据文件（使用示例版本）
+测试.xlsx
+训练.xlsx
+规则配置_v0.6.json
+
+# 缓存
+缓存/
+搜索/
+网页/
+模型/
+
+# 运行记录
+运行记录/
+
+# 实际数据文件（使用.example模板）
+补充来源.json
+
+# Node modules
+node_modules/
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+
+# Excel输出
+*_规则试填_v*.xlsx
+
+# 脱敏工具和临时文件
+脱敏工具.py
+创建示例Excel.py
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 个人验收文档
+v0.6最终验收.txt

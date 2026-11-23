@@ -1,0 +1,36 @@
+# 密钥文件
+*.dpapi
+
+# 缓存
+缓存/
+搜索/
+网页/
+模型/
+
+# 运行记录
+运行记录/
+
+# 实际数据文件（使用.example模板）
+补充来源.json
+
+# Node modules
+node_modules/
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+
+# Excel输出
+*_规则试填_v*.xlsx
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

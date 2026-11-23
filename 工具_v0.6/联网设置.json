@@ -1,0 +1,32 @@
+{
+  "model": "deepseek-flash",
+  "thinkingEnabled": true,
+  "reasoningEffort": "low",
+  "maxTokens": 16000,
+  "timeoutMs": 180000,
+  "maxCompaniesPerRun": 100,
+  "cacheDays": 7,
+  "searchCacheHours": 12,
+  "targetYear": null,
+  "forceRefreshKnown": true,
+  "maxSearchRequests": 6,
+  "initialSearchRequests": 4,
+  "maxReadAttempts": 10,
+  "maxFetchRequests": 4,
+  "maxSupplementRounds": 2,
+  "maxCompanySeconds": 600,
+  "searchResultsPerQuery": 8,
+  "maxDocumentBytes": 40000000,
+  "sourceCharBudget": 64000,
+  "publicSearchFallback": true,
+  "respectRobotsTxt": true,
+  "companyOptions": {
+    "示例科技有限公司": {"targetYear": 2025, "financialScope": "parent"},
+    "虚拟网络技术公司": {"targetYear": 2025}
+  },
+  "_comments": {
+    "version": "v0.6改进：增加robots.txt检查、改进错误处理、优化日志输出",
+    "respectRobotsTxt": "是否遵守robots.txt规则（推荐开启）",
+    "logLevel": "日志级别（ERROR/WARN/INFO/DEBUG），通过环境变量LOG_LEVEL设置"
+  }
+}

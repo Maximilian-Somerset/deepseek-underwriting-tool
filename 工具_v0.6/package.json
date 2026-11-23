@@ -1,0 +1,28 @@
+{
+  "name": "deepseek-underwriting-tool",
+  "version": "0.6.0",
+  "description": "DeepSeek智能核保辅助工具 - 自动收集企业公开信息并填写核保字段",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node 核保批处理.mjs",
+    "check": "node 核保批处理.mjs --check",
+    "test": "node --test"
+  },
+  "keywords": [
+    "insurance",
+    "underwriting",
+    "automation",
+    "deepseek",
+    "ai"
+  ],
+  "dependencies": {
+    "@microsoft/generator-excel": "^1.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true
+}
